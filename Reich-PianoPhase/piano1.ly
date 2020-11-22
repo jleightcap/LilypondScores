@@ -24,20 +24,12 @@ pianoone = \relative c' {
   % phase 3
   \repeat volta 2 {
     \set stemLeftBeamCount = #2
-    b[ cis d] fis,[ e cis' b] fis[ d' cis] e,[
-    \set stemRightBeamCount = #2
-    fis] |
-  }
-
-  % phase 4
-  \repeat volta 2 {
-    \set stemLeftBeamCount = #2
     cis'[ d] fis,[ e cis' b] fis[ d' cis] e,[ fis
     \set stemRightBeamCount = #2
     b] |
   }
 
-  % phase 5
+  % phase 4
   \repeat volta 2 {
     \set stemRightBeamCount = #0
     d[] fis,[ e cis' b] fis[ d' cis] e,[ fis b
@@ -45,12 +37,12 @@ pianoone = \relative c' {
     cis] |
   }
 
-  % phase 6
+  % phase 5
   \repeat volta 2 {
     fis,[ e cis' b] fis[ d' cis] e,[ fis b cis d] |
   }
 
-  % phase 7
+  % phase 6
   \repeat volta 2 {
     \set stemLeftBeamCount = #2
     e,[ cis' b] fis[ d' cis] e,[ fis b cis d]
@@ -58,7 +50,7 @@ pianoone = \relative c' {
     fis,[] |
   }
 
-  % phase 8
+  % phase 7
   \repeat volta 2 {
     \set stemLeftBeamCount = #2
     cis'[ b] fis[ d' cis] e,[ fis b cis d] fis,[
@@ -66,7 +58,7 @@ pianoone = \relative c' {
     e] |
   }
 
-  % phase 9
+  % phase 8
   \repeat volta 2 {
     \set stemRightBeamCount = #0
     b'[] fis[ d' cis] e,[ fis b cis d] fis,[ e
@@ -74,16 +66,21 @@ pianoone = \relative c' {
     cis'] |
   }
 
-  % phase 10
+  % phase 9
   \repeat volta 2 {
     fis,[ d' cis] e,[ fis b cis d] fis,[ e cis' b] |
   }
 
-  % phase 11
+  % phase 10
   \repeat volta 2 {
     \set stemRightBeamCount = #0
     cis[] e,[ fis b cis d] fis,[ e cis' b] fis[
     \set stemRightBeamCount = #2
     d'] |
+  }
+
+  % phase 11
+  \repeat volta 2 {
+    e,16[ fis b cis d] fis,[ e cis' b] fis[ d' cis] |
   }
 }
