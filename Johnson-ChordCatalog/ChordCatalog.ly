@@ -13,7 +13,7 @@
     \new StaffGroup { <<
       \new Staff = "voice" <<
         \set Staff.instrumentName = #"Chords  "
-        \new Voice = "Chords" { \blocks }
+        \new Voice = "Chords" { \result }
       >>
     >> }
   >>
@@ -21,7 +21,7 @@
     \context {
       \Score
       \omit BarNumber
-      \override SpacingSpanner.uniform-stretching = ##t
+      \remove Time_signature_engraver
     }
   }
 }
