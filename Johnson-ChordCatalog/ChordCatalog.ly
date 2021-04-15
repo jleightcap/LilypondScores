@@ -6,7 +6,7 @@
   composer = "Tom Johnson"
 }
 
-\include "chords.ly"
+\include "template.ly"
 
 \score {
   <<

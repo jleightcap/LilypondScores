@@ -1,7 +1,7 @@
-result = \relative c' {
+result = {
   \override Staff.TimeSignature #'stencil = ##f
   \cadenzaOn
-  c d e f g a b c
+  c' d' e' f' g' a' b' c'
   \cadenzaOff
   \bar "|"
   \cadenzaOn
